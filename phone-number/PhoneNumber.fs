@@ -9,7 +9,7 @@ let clean input =
             |> Seq.filter System.Char.IsDigit            
             |> Seq.map string
             |> String.concat ""       
-            |> (fun input -> Regex.Replace (input, "^1", ""))
+            |> (fun input -> input.Length == 11 ? Regex.Replace (input, "^1", "") : input)            
             |> uint64
             |> Ok
 

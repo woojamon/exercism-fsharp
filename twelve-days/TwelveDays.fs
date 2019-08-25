@@ -16,7 +16,6 @@ let private dayGift (day: int) =
         | 12 -> ("twelfth", Some "twelve Drummers Drumming")
         | _ -> ("", None)
 
-
 let private giftsForDay (day:int) =
     [1..day]
     |> Seq.map (dayGift >> snd)

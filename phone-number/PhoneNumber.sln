@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "PhoneNumber", "PhoneNumber.fsproj", "{671B0AB4-2DF7-415D-AA9A-4F078EBB2600}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{671B0AB4-2DF7-415D-AA9A-4F078EBB2600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671B0AB4-2DF7-415D-AA9A-4F078EBB2600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671B0AB4-2DF7-415D-AA9A-4F078EBB2600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671B0AB4-2DF7-415D-AA9A-4F078EBB2600}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

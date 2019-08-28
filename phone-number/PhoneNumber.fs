@@ -46,15 +46,6 @@ let maxLengthCheck input =
 
 let countryCodeCheck input =
     match input with
-<<<<<<< HEAD
-    | "" -> Error "blah"
-    | _ ->  input
-            |> Seq.filter System.Char.IsDigit            
-            |> Seq.map string
-            |> String.concat ""       
-            |> (fun input -> input.Length == 11 ? Regex.Replace (input, "^1", "") : input)            
-            |> uint64
-=======
         | Error err -> Error err
         | Ok (str:string) ->
             if (Regex.IsMatch (str, "[^1]\d{10}"))
@@ -71,7 +62,6 @@ let stripCountryCode input =
             |> Array.rev
             |> Array.map string
             |> String.concat ""
->>>>>>> 83c3449c6cfe9dcf94c9e2bd17c2e3a47e96b4e7
             |> Ok
 
 let areaCodeCheck input = 
